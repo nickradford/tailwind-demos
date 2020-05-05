@@ -9,8 +9,13 @@ module.exports = {
       },
     },
     fontFamily: {
-      display: ['"SF Pro Display"', '"Helvetica Neue"', "Helvetica"],
-      text: ['"SF Pro Text"'],
+      display: [
+        '"SF Pro Display"',
+        '"SF Display"',
+        '"Helvetica Neue"',
+        "Helvetica",
+      ],
+      text: ['"SF Pro Text"', '"SF Text"'],
     },
   },
   variants: {

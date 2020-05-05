@@ -6054,11 +6054,11 @@ video {
 }
 
 .font-display {
-  font-family: "SF Pro Display", "Helvetica Neue", Helvetica;
+  font-family: "SF Pro Display", "SF Display", "Helvetica Neue", Helvetica;
 }
 
 .font-text {
-  font-family: "SF Pro Text";
+  font-family: "SF Pro Text", "SF Text";
 }
 
 .font-hairline {
@@ -24954,11 +24954,11 @@ video {
   }
 
   .sm\:font-display {
-    font-family: "SF Pro Display", "Helvetica Neue", Helvetica;
+    font-family: "SF Pro Display", "SF Display", "Helvetica Neue", Helvetica;
   }
 
   .sm\:font-text {
-    font-family: "SF Pro Text";
+    font-family: "SF Pro Text", "SF Text";
   }
 
   .sm\:font-hairline {
@@ -43403,11 +43403,11 @@ video {
   }
 
   .md\:font-display {
-    font-family: "SF Pro Display", "Helvetica Neue", Helvetica;
+    font-family: "SF Pro Display", "SF Display", "Helvetica Neue", Helvetica;
   }
 
   .md\:font-text {
-    font-family: "SF Pro Text";
+    font-family: "SF Pro Text", "SF Text";
   }
 
   .md\:font-hairline {
@@ -61852,11 +61852,11 @@ video {
   }
 
   .lg\:font-display {
-    font-family: "SF Pro Display", "Helvetica Neue", Helvetica;
+    font-family: "SF Pro Display", "SF Display", "Helvetica Neue", Helvetica;
   }
 
   .lg\:font-text {
-    font-family: "SF Pro Text";
+    font-family: "SF Pro Text", "SF Text";
   }
 
   .lg\:font-hairline {
@@ -80301,11 +80301,11 @@ video {
   }
 
   .xl\:font-display {
-    font-family: "SF Pro Display", "Helvetica Neue", Helvetica;
+    font-family: "SF Pro Display", "SF Display", "Helvetica Neue", Helvetica;
   }
 
   .xl\:font-text {
-    font-family: "SF Pro Text";
+    font-family: "SF Pro Text", "SF Text";
   }
 
   .xl\:font-hairline {
