@@ -19082,8 +19082,20 @@ video {
   transition-delay: 200ms;
 }
 
+.delay-250 {
+  transition-delay: 250ms;
+}
+
 .delay-300 {
   transition-delay: 300ms;
+}
+
+.delay-350 {
+  transition-delay: 350ms;
+}
+
+.delay-400 {
+  transition-delay: 400ms;
 }
 
 .delay-500 {
@@ -37930,8 +37942,20 @@ video {
     transition-delay: 200ms;
   }
 
+  .sm\:delay-250 {
+    transition-delay: 250ms;
+  }
+
   .sm\:delay-300 {
     transition-delay: 300ms;
+  }
+
+  .sm\:delay-350 {
+    transition-delay: 350ms;
+  }
+
+  .sm\:delay-400 {
+    transition-delay: 400ms;
   }
 
   .sm\:delay-500 {
@@ -56367,8 +56391,20 @@ video {
     transition-delay: 200ms;
   }
 
+  .md\:delay-250 {
+    transition-delay: 250ms;
+  }
+
   .md\:delay-300 {
     transition-delay: 300ms;
+  }
+
+  .md\:delay-350 {
+    transition-delay: 350ms;
+  }
+
+  .md\:delay-400 {
+    transition-delay: 400ms;
   }
 
   .md\:delay-500 {
@@ -74804,8 +74840,20 @@ video {
     transition-delay: 200ms;
   }
 
+  .lg\:delay-250 {
+    transition-delay: 250ms;
+  }
+
   .lg\:delay-300 {
     transition-delay: 300ms;
+  }
+
+  .lg\:delay-350 {
+    transition-delay: 350ms;
+  }
+
+  .lg\:delay-400 {
+    transition-delay: 400ms;
   }
 
   .lg\:delay-500 {
@@ -93241,8 +93289,20 @@ video {
     transition-delay: 200ms;
   }
 
+  .xl\:delay-250 {
+    transition-delay: 250ms;
+  }
+
   .xl\:delay-300 {
     transition-delay: 300ms;
+  }
+
+  .xl\:delay-350 {
+    transition-delay: 350ms;
+  }
+
+  .xl\:delay-400 {
+    transition-delay: 400ms;
   }
 
   .xl\:delay-500 {
