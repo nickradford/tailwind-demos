@@ -6,23 +6,68 @@
     <title>Document</title>
     <link rel="stylesheet" href="./tailwind.build.css" />
   </head>
-  <body class="container mx-auto font-display">
-    <div class="flex flex-col">
-      <h1 class="text-4xl">Tailwind Demos</h1>
-      <hr />
+  <body class="font-text">
+    <div class="flex flex-col bg-gray-900 text-white items-center">
+      <div class="container flex items-center justify-between">
+        <h1 class="text-4xl">Tailwind Demos</h1>
+        <a
+          href="https://github.com/nickradford/tailwind-demos"
+          title="View on Github"
+          ><i class="fab fa-github text-3xl"></i
+        ></a>
+      </div>
     </div>
-    <div class="flex items-center pt-4">
-      <a
-        class="w-48 p-6 hover:bg-blue-100 hover:shadow-xs flex flex-col items-center group rounded-md transition-colors duration-100"
-        href="./apple"
-      >
+    <div class="flex bg-gray-100 py-8">
+      <div class="container mx-auto leading-8">
+        <p>
+          Tailwind CSS is a utility-driven CSS Framework for building user
+          interfaces.
+        </p>
+        <p>
+          Having read a little bit about Tailwind, and seeing it pop up on
+          YouTube, I wanted to give it a go.
+        </p>
+      </div>
+    </div>
+    <div class="container mx-auto py-8">
+      <div class="flex">
         <img
-          class="opacity-50 w-24 group-hover:opacity-75 transition-opacity duration-100"
-          src="apple/imgs/apple.png"
-          alt=""
+          src="images/apple-press-release.png"
+          class="w-48 flex-shrink-0"
+          alt="Apple Press Release"
         />
-        <p class="mt-4">Apple Press Release</p>
-      </a>
+
+        <div class="pl-6 flex flex-col max-w-sm justify-between">
+          <div>
+            <h2 class="text-xl font-semibold font-display">
+              Apple Press Release
+            </h2>
+            <p class="text-sm">
+              This press release for the new MacBook Pro 13" had some UI I
+              wanted to try to recreate, mainly the responsive behavior and the
+              image overlays.
+            </p>
+          </div>
+          <div class="flex font-display mt-4">
+            <a
+              href="https://www.apple.com/newsroom/2020/05/apple-updates-13-inch-macbook-pro-with-magic-keyboard-double-the-storage-and-faster-performance/"
+              target="_blank"
+              class="bg-gray-900 hover:bg-gray-800 text-white text-center w-1/2 py-2 mr-4"
+              >Original</a
+            >
+            <a
+              href="/apple"
+              class="bg-pink-600 hover:bg-pink-500 text-white text-center w-1/2 py-2"
+              >Recreation</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+      defer
+    ></script>
   </body>
 </html>
