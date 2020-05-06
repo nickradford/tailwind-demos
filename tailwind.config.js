@@ -7,6 +7,9 @@ module.exports = {
         "350": "350ms",
         "400": "400ms",
       },
+      transitionProperty: {
+        padding: "padding",
+      },
     },
     fontFamily: {
       display: [
@@ -21,6 +24,7 @@ module.exports = {
   variants: {
     opacity: ["group-hover"],
     boxShadow: ["responsive", "hover", "focus", "active", "group-hover"],
+    padding: ["group-hover"],
   },
   plugins: [],
 };
