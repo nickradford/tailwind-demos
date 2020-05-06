@@ -6053,6 +6053,10 @@ video {
   clear: none;
 }
 
+.font-nunito {
+  font-family: "Nunito Sans", sans-serif;
+}
+
 .font-display {
   font-family: "SF Pro Display", "SF Display", "Helvetica Neue", Helvetica;
 }
@@ -19684,6 +19688,10 @@ video {
   transition-delay: 1000ms;
 }
 
+/* Nunito Sans */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,900&display=swap");
+
 /** WARNING - USE AT OWN RISK */
 
 /** IT IS AGAINST APPLE'S POLICY TO USE SF PRO FOR ANYTHING OTHER THAN iOS/tvOS/macOS/watchOS DESIGN & DEVELOPMENT */
@@ -25525,6 +25533,10 @@ video {
 
   .sm\:clear-none {
     clear: none;
+  }
+
+  .sm\:font-nunito {
+    font-family: "Nunito Sans", sans-serif;
   }
 
   .sm\:font-display {
@@ -43410,6 +43422,10 @@ video {
     clear: none;
   }
 
+  .md\:font-nunito {
+    font-family: "Nunito Sans", sans-serif;
+  }
+
   .md\:font-display {
     font-family: "SF Pro Display", "SF Display", "Helvetica Neue", Helvetica;
   }
@@ -61293,6 +61309,10 @@ video {
     clear: none;
   }
 
+  .lg\:font-nunito {
+    font-family: "Nunito Sans", sans-serif;
+  }
+
   .lg\:font-display {
     font-family: "SF Pro Display", "SF Display", "Helvetica Neue", Helvetica;
   }
@@ -79174,6 +79194,10 @@ video {
 
   .xl\:clear-none {
     clear: none;
+  }
+
+  .xl\:font-nunito {
+    font-family: "Nunito Sans", sans-serif;
   }
 
   .xl\:font-display {

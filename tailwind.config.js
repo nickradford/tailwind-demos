@@ -12,6 +12,7 @@ module.exports = {
       },
     },
     fontFamily: {
+      nunito: ['"Nunito Sans"', "sans-serif"],
       display: [
         '"SF Pro Display"',
         '"SF Display"',
