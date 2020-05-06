@@ -5,15 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../tailwind.build.css" />
+    <style>
+      .pulse:hover .footer {
+        position: relative;
+        animation-name: pulse-footer;
+        animation-duration: 0.4s;
+        animation-iteration-count: 2;
+      }
+
+      .pulse:hover .footer:hover {
+        position: relative;
+        animation-name: none;
+        animation-duration: 0.4s;
+        animation-iteration-count: 2;
+      }
+      @keyframes pulse-footer {
+        0% {
+          transform: translateY(0);
+        }
+        25% {
+          transform: translateY(4px);
+        }
+        75% {
+          transform: translateY(4px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="flex bg-gray-200">
       <div
-        class="flex flex-col w-48 h-screen bg-orange-500 shadow-2xl overflow-hidden justify-between"
+        class="pulse flex flex-col w-48 h-screen bg-orange-500 shadow-2xl overflow-hidden justify-between"
       >
         <div>
           <div
-            class="text-center bg-gray-900 font-display font-bold text-white text-3xl py-4"
+            class="text-center bg-gray-900 font-display font-bold text-white text-3xl pt-4"
           >
             applify
           </div>
@@ -24,15 +53,14 @@
           </div>
         </div>
 
-        <nav></nav>
-
-        <!-- <div
-          class="footer text-center bg-gray-900 py-12 font-display font-bold text-white text-xl pb-48 pt-6"
-        >
-          <div>
-            Jake Shears
-          </div>
-        </div> -->
+        <nav class="flex-1 font-text overflow-y-auto">
+          <ul class="pl-8">
+            <li class="font-bold">Home</li>
+            <li>Applications</li>
+            <li>DNS</li>
+            <li>Cache Layer</li>
+          </ul>
+        </nav>
 
         <div class="footer text-gray-900 text-center group">
           <svg height="50" class="fill-current">
